@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(0 0 0 / 0%);
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+.sec {
+  margin: 0 auto;
+  display: flex;
+  border-radius: 20px;
+}
+
+.left-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  padding: 2rem;
+  background-image: linear-gradient(#1D3557, #2A6F97);
+  box-shadow: 0px 0px 25px #111f33;
+}
+
+.lc-h1 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-shadow: 4px 4px 8px #1D3557;
+}
+
+.lc-score, .lc-left-win, .lc-right-win
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  height: 5rem;
+  width: 5rem;
+  margin-top: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.lc-score {
+  background-image: linear-gradient(#2A6F97, #5398D9);
+  border-color: #2A6F97;
+}
+
+.lc-left-win {
+  background-image: linear-gradient(#39eb0d, #2aaa0b);
+  border-color: #5fda40;
+}
+
+.lc-right-win {
+  background-image: linear-gradient(#eb0d0d, #aa0b0b);
+  border-color: #da4040;
+}
+
+.lc-bubbles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#left-margin{
+  margin-left: 5rem;
+}
+
+#right-margin{
+  margin-right: 5rem;
+}
+
+.lc-names {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin-bottom: -1rem;
+  margin-right: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px #1D3557;
+}
+
+.lc-closer
+{
+  margin-bottom: -1rem;
+}
